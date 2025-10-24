@@ -6,7 +6,7 @@ set -Eeuo pipefail
 
 # ===== Config =====
 SERVICES=("_pro7proremote._tcp" "_proapiv1ws._tcp")
-COMPANION_HOST="${COMPANION_HOST:-192.168.1.7}"
+COMPANION_HOST="${COMPANION_HOST:-127.0.0.1}"
 COMPANION_PORT="${COMPANION_PORT:-8888}"
 START_INDEX="${START_INDEX:-1}"
 VAR_PREFIX="${VAR_PREFIX:-DiscoveredPro}"
