@@ -1,4 +1,4 @@
-This is an experimental bash script intended to work in Linux's like Raspbian.  
+This is an experimental (rushed version) bash script intended to work in Linux's like Raspbian.  
   
 It's _likely?_ that your distro has avahi deamon service installed and running - if not, install that!  
 Requiries avahi-browse command from avahi-utils package - that is not likely to be installed. (sudo apt install avahi-utils).  
